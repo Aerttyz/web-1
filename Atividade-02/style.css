@@ -1,0 +1,38 @@
+html, body{
+    height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+main{
+    flex: 1;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}   
+
+.navbar{
+    background-color: #333333;
+    height: 6.25rem;
+
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+.text-left-dark{
+    font-size: 1.5rem;
+}
+.bg{
+    background-color: #f4f4f4;
+}
+.bg-th{
+    background-color: #f4f4f4 !important;
+    
+}
