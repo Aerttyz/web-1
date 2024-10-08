@@ -1,6 +1,7 @@
 window.onload = function() {
     var quadro = document.getElementById("quadro");
     var ctx = quadro.getContext("2d");
+    document.getElementById("quadro").addEventListener("mouseover", function(){{quadro.style.cursor = "crosshair";}});
 
     var desenhando = false;
 
